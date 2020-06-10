@@ -37,8 +37,8 @@ def max_pal(word_list):
 
 def long_pal(string):
     words = []
-    for i in range(0, len(string)):
-        for j in range(1, len(string)):
+    for i in range(0, len(string) + 1):
+        for j in range(i + 1, len(string) + 1):
             if is_pal(string[i:j]):
                 if string[i:j] != "":
                     words.append(string[i:j])
@@ -77,4 +77,9 @@ def all_perms(string):
 
 if __name__ == "__main__":
     print(long_pal("ababad"))
+    print(long_pal("a"))
+    print(long_pal("ab"))
+    print(long_pal("aba"))
+    print(long_pal("hannah"))
+    
     print(all_perms("abb"))
