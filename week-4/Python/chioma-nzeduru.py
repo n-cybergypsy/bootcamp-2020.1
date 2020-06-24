@@ -86,76 +86,78 @@ class LinkedList:
 
 
 S = LinkedList()
-S.push('I')
-S.push(' ')
-S.push('l')
-S.push('o')
-S.push('v')
-S.push('e')
-S.push(' ')
-S.push('G')
-S.push('e')
-S.push('e')
-S.push('k')
 S.push('s')
+S.push('k')
+S.push('e')
+S.push('e')
+S.push('G')
 S.push(' ')
-S.push('f')
-S.push('o')
 S.push('r')
+S.push('o')
+S.push('f')
 S.push(' ')
-S.push('G')
-S.push('e')
-S.push('e')
-S.push('k')
 S.push('s')
+S.push('k')
+S.push('e')
+S.push('e')
+S.push('G')
+S.push(' ')
+S.push('e')
+S.push('v')
+S.push('o')
+S.push('l')
+S.push(' ')
+S.push('I')
 
-S.print_list()
+S.print_list() # I love Geeks for Geeks
 S = S.reverse()
-S.print_list()
+S.print_list() # Geeks for Geeks I love
 
 #C = LinkedList()
-#C.push('C')
-#C.push('a')
-#C.push('r')
-#C.push('s')
-#C.push(' ')
-#C.push('a')
-#C.push('r')
-#C.push('e')
-#C.push(' ')
-#C.push('c')
-#C.push('o')
-#C.push('o')
 #C.push('l')
+#C.push('o')
+#C.push('o')
+#C.push('c')
+#C.push(' ')
+#C.push('e')
+#C.push('r')
+#C.push('a')
+#C.push(' ')
+#C.push('s')
+#C.push('r')
+#C.push('a')
+#C.push('C')
 
-#C.print_list()
+#C.print_list() # Cars are cool
 #C = C.reverse()
-#C.print_list()
+#C.print_list() # cool are Cars
 
 L1 = LinkedList()
 L2 = LinkedList()
 
-L1.push(5)
-L1.push(6)
 L1.push(3)
+L1.push(6)
+L1.push(5)
 
 L2.push(5)
+L2.push(0)
+L2.push(0)
 
 
 L3 = LinkedList()
 L3 = L3.sumlist(L1, L2)
 
 L1.print_list() # 563
-L2.print_list() # 5
+L2.print_list() # 005
 L3.print_list() # 568
 
 
 #L1 = LinkedList()
 #L2 = LinkedList()
 
-#L1.push(5)
-#L1.push(6)
 #L1.push(3)
+#L1.push(6)
+#L1.push(5)
 
 #L2.push(8)
 #L2.push(4)
@@ -180,6 +182,7 @@ L3.print_list() # 568
 
 #L2.push(8)
 #L2.push(5)
+#L2.push(0)
 
 
 #L3 = LinkedList()
